@@ -1,7 +1,7 @@
 ||settings.crashlytics.com
 ||ap.tnkfactory.com
 
-! Mobile Fax
+! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
 ||www.everyon.tv/data/ch_ad_all_kr.xml
 
@@ -15,9 +15,9 @@
 
 ! Podbbang
 ||app-api4.podbbang.com/banner^
+||app-api4.podbbang.com/episode/support^
 ||tag-image.makeshop.co.kr/podbanner^
 ||tag-image.makeshop.co.kr/flyer^
-||app-api4.podbbang.com/episode/support^
 ||log.podbbang.com^
 
 ! Whoscall
@@ -32,7 +32,3 @@ gall.dcinside.com##DIV[style*="position: fixed"]
 gall.dcinside.com##DIV[style*="visibility: hidden"]
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 ||nstatic.dcinside.com/ad/^
-!gall.dcinside.com##body > div:has(img[alt="광고차단 프로그램을 쓰고 계시나봐요 ㅠㅠ"]
-!gall.dcinside.com##body > div:nth-child(6)
-!gall.dcinside.com/_js/blockadblock.js
-!dcinside.com##.pop_useinfo_layer + div:style(visibility:hidden)
