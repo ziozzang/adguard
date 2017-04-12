@@ -35,3 +35,4 @@ gall.dcinside.com/_js/blockadblock.js
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 http://nstatic.dcinside.com/dgn/gallery/images/popup/*
 http://nstatic.dcinside.com/ad/*
+dcinside.com##.pop_useinfo_layer + div:style(visibility:hidden)
