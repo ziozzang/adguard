@@ -28,7 +28,8 @@
 ||cdn.ddanzi.com/banner^
 
 ! DCinside
-gall.dcinside.com##DIV[style*="position: fixed"]
+gall.dcinside.com##DIV[style*="position: fixed"]\
+gall.dcinside.com##DIV[style*="visibility: hidden;"]
 gall.dcinside.com##body > div:has(img[alt="광고차단 프로그램을 쓰고 계시나봐요 ㅠㅠ"]
 gall.dcinside.com##body > div:nth-child(6)
 gall.dcinside.com/_js/blockadblock.js
