@@ -7,7 +7,6 @@
 
 ! MobileFax
 ||mobilefax.sktelink.com/Ad^
-||mobilefax.sktelink.com/Ad^
 
 ! Band
 ||scv.band.us/jackpotlog/v1/logs
