@@ -30,5 +30,8 @@
 ! DCinside
 gall.dcinside.com##DIV[style*="position: fixed"]
 gall.dcinside.com##DIV[style*="visibility: hidden"]
+gall.dcinside.com##script:contains(adBlockDetected)
+gall.dcinside.com##script:contains(adBlockNotDetected)
+||gall.dcinside.com/_js/blockadblock.js
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 ||nstatic.dcinside.com/ad/^
