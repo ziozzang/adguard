@@ -1,37 +1,37 @@
 ||settings.crashlytics.com
 ||ap.tnkfactory.com
 
-# Mobile Fax
+! Mobile Fax
 ||www.everyon.tv/data/ad_cpi_all.xml
 ||www.everyon.tv/data/ch_ad_all_kr.xml
 
-# MobileFax
+! MobileFax
 ||mobilefax.sktelink.com/Ad^
 ||mobilefax.sktelink.com/Ad^
 
-# Band
+! Band
 ||scv.band.us/jackpotlog/v1/logs
 ||promotion-api.band.us/^
 
 
-# Podbbang
+! Podbbang
 ||app-api4.podbbang.com/banner^
 ||tag-image.makeshop.co.kr/podbanner^
 ||tag-image.makeshop.co.kr/flyer^
 ||app-api4.podbbang.com/episode/support^
 ||log.podbbang.com^
 
-# Whoscall
+! Whoscall
 ||papilio.whoscall.com/v4/ads^
 ||papilio-ad.s3.amazonaws.com
 
-# ddanzi
+! ddanzi
 ||cdn.ddanzi.com/banner^
 
-# DCinside
+! DCinside
 gall.dcinside.com##DIV[style*="width:394px; height:294px; border:3px solid #000;"]
-gall.dcinside.com/##body > div:has(img[alt="광고차단 프로그램을 쓰고 계시나봐요 ㅠㅠ"]
+gall.dcinside.com##body > div:has(img[alt="광고차단 프로그램을 쓰고 계시나봐요 ㅠㅠ"]
 gall.dcinside.com##body > div:nth-child(6)
-http://gall.dcinside.com/_js/blockadblock.js
+gall.dcinside.com/_js/blockadblock.js
 
 
