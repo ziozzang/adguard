@@ -30,12 +30,13 @@
 ! DCinside
 gall.dcinside.com,m.dcinside.com##DIV[style*="position: fixed"]
 gall.dcinside.com,m.dcinside.com##DIV[style*="visibility: hidden"]
+gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
 gall.dcinside.com,m.dcinside.com##script:contains(adBlockDetected)
 gall.dcinside.com,m.dcinside.com##script:contains(adBlockNotDetected)
 ||gall.dcinside.com/_js/blockadblock.js
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 ||nstatic.dcinside.com/ad/^
-||dcimg2.dcinside.co.kr/viewimage.php?id=*&no=*2017*
+||dcimg2.dcinside.co.kr/viewimage.php?id=*&no=*
 
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
