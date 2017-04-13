@@ -1,6 +1,12 @@
 ||settings.crashlytics.com
 ||ap.tnkfactory.com
 
+! Generic
+#%#var fuckAdBlock = false
+##DIV.adblock-on
+#@#.adsbygoogle
+
+
 ! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
 ||www.everyon.tv/data/ch_ad_all_kr.xml
@@ -39,5 +45,4 @@ gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
 
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
-!||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(price_state)": [\d]+/"\$1": 2/
 
