@@ -2,10 +2,16 @@
 ||ap.tnkfactory.com
 
 ! Fuck Adblock
+! - JS Injection.
 !foo.bar.com#%#(function(){var a={debug:{set:function(){return a}},on:function(b,c){b||setTimeout(function(){c()},1);return a}};Object.defineProperty(window,"fuckAdBlock",{get:function(){return a}})})();
 !foo.bar.com#%#var fuckAdBlock = false
 !foo.bar.com#@#.adsbygoogle
 !foo.bar.com##DIV.adblock-on
+
+! Generic Fuck Adblockblock
+#%#var fuckAdBlock = false
+##DIV.adblock-on
+#@#.adsbygoogle
 
 ! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
