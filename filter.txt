@@ -9,9 +9,9 @@
 !foo.bar.com##DIV.adblock-on
 
 ! Generic Fuck Adblockblock
-#%#var fuckAdBlock = false
-##DIV.adblock-on
-#@#.adsbygoogle
+!#%#var fuckAdBlock = false
+!##DIV.adblock-on
+!#@#.adsbygoogle
 
 ! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
