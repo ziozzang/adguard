@@ -37,5 +37,6 @@ gall.dcinside.com,m.dcinside.com##script:contains(adBlockNotDetected)
 ||nstatic.dcinside.com/ad/^
 
 ! IAP
-||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
-||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(price_state)": [\d]+/"\$1": 2/
+||cdn.smartstudy.co.kr/appdata/*.json$replace=/price/asdf/
+!||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
+!||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(price_state)": [\d]+/"\$1": 2/
