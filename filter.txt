@@ -1,11 +1,11 @@
 ||settings.crashlytics.com
 ||ap.tnkfactory.com
 
-! Generic
-#%#var fuckAdBlock = false
-##DIV.adblock-on
-#@#.adsbygoogle
-
+! Fuck Adblock
+!foo.bar.com#%#(function(){var a={debug:{set:function(){return a}},on:function(b,c){b||setTimeout(function(){c()},1);return a}};Object.defineProperty(window,"fuckAdBlock",{get:function(){return a}})})();
+!foo.bar.com#%#var fuckAdBlock = false
+!foo.bar.com#@#.adsbygoogle
+!foo.bar.com##DIV.adblock-on
 
 ! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
