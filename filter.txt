@@ -44,6 +44,7 @@ gall.dcinside.com,m.dcinside.com##DIV[style*="position: fixed"]
 gall.dcinside.com,m.dcinside.com##DIV[style*="visibility: hidden"]
 gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
 ||gall.dcinside.com/board/*$replace=/function (checkAgain|adBlockDetected)+/function \$1(){}; function __\$1/
+!gall.dcinside.com#%#Object.defineProperty(window, 'adBlockDetected', { get: function() { return false; } });
 ||gall.dcinside.com/_js/blockadblock.js
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 ||nstatic.dcinside.com/ad/^
