@@ -52,6 +52,6 @@ gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
 
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
-||api.plus.joins.com/*.aspx$replace=/"(pay|pmtyn|payyn)":"Y"/"\$1":"N"/
+||api.plus.joins.com/*.aspx$replace=/"(pay|pmtyn|payyn|subs)":"Y"/"\$1":"N"/
 ||api.plus.joins.com/*.aspx$replace=/"(smpcnt)":\d*?/"\$1":999/
 
