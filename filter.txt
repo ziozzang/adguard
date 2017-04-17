@@ -1,3 +1,4 @@
+! Guide : https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 ||settings.crashlytics.com
 ||ap.tnkfactory.com
 
