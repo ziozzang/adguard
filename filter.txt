@@ -42,6 +42,7 @@
 ! DCinside
 gall.dcinside.com##div[style*="position: absolute"]:not(.con_user_box)
 gall.dcinside.com##div[style*="position: fixed"]
+gall.dcinside.com##img[alt="No AdBlock"]
 ! gall.dcinside.com,m.dcinside.com##DIV[style*="position: fixed"]
 ! gall.dcinside.com,m.dcinside.com##DIV[style*="visibility: hidden"]
 ! gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
