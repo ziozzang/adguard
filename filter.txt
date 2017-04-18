@@ -41,9 +41,10 @@
 ||cdn.ddanzi.com/banner^
 
 ! DCinside
-gall.dcinside.com##div[style*="position: absolute"]:not(.con_user_box)
-gall.dcinside.com##div[style*="position: fixed"]
-gall.dcinside.com##img[alt="No AdBlock"]
+gall.dcinside.com,m.dcinside.com##div[style*="position: absolute"]:not(.con_user_box)
+gall.dcinside.com,m.dcinside.com##div[style*="position: fixed"]
+gall.dcinside.com,m.dcinside.com##img[alt="No AdBlock"]
+gall.dcinside.com,m.dcinside.com##span[id="*adblock"]
 !gall.dcinside.com,m.dcinside.com##DIV[style*="position: fixed"]
 !gall.dcinside.com,m.dcinside.com##DIV[style*="visibility: hidden"]
 !gall.dcinside.com,m.dcinside.com##DIV[style*="display: none"]
@@ -54,6 +55,9 @@ gall.dcinside.com##img[alt="No AdBlock"]
 ||nstatic.dcinside.com/dgn/gallery/images/popup/^
 ||nstatic.dcinside.com/ad/^
 
+! CIO Korea
+ciokorea.com###techlibrary_left_slide_banner
+ciokorea.com###tail_popup
 
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
