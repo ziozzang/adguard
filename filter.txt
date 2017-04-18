@@ -59,6 +59,9 @@ gall.dcinside.com,m.dcinside.com##span[id="*adblock"]
 ciokorea.com###techlibrary_left_slide_banner
 ciokorea.com###tail_popup
 
+! Daum
+daum.net##div[class="advert_*"]
+
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
 !||api.plus.joins.com/*/PubInfoList.aspx$replace=/"(pay|pmtyn|payyn|subs)":"Y"/"\$1":"N"/
