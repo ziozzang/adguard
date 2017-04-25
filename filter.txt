@@ -32,7 +32,7 @@
 ||tag-image.makeshop.co.kr/podbanner^
 ||tag-image.makeshop.co.kr/flyer^
 ||log.podbbang.com^
-||app-api4.podbbang.com/channel/info$replace=/"(ad|ad_audio)"/"\$1_block"/
+||app-api4.podbbang.com/channel^$replace=/"(ad|use_ad|ad_audio)"/"\$1_block"/
 
 ! Whoscall
 ||papilio.whoscall.com/v4/ads^
