@@ -14,6 +14,26 @@
 !##DIV.adblock-on
 !#@#.adsbygoogle
 
+! Block Ad
+||*.rayjump.com/^
+ref.ad-brix.com
+ads.mopub.com
+tracking.lenzmx.com
+ad.mecross.net
+c.snnd.co
+clk.oceanbys.com
+advert.smarter-wireless.net
+pixel.admobclick.com
+tr.pubnative.net
+clicks.minimob.com
+*.w.inmobi.com
+init.startappexchange.com
+
+! Block Xiaomi
+*.mistat.xiaomi.com
+*.ad.xiaomi.com
+o2o.api.xiaomi.com
+
 ! Everyon TV
 ||www.everyon.tv/data/ad_cpi_all.xml
 ||www.everyon.tv/data/ch_ad_all_kr.xml
@@ -24,7 +44,8 @@
 ! Band
 ||scv.band.us/jackpotlog/v1/logs
 ||promotion-api.band.us/^
-
+||ad-api.band.us/^
+||api.band.us/^$replace=/"(ads|use_ad|ad_audio)"/"\$1_block"/
 
 ! Podbbang
 ||app-api4.podbbang.com/banner^
@@ -33,6 +54,14 @@
 ||tag-image.makeshop.co.kr/flyer^
 ||log.podbbang.com^
 ||app-api4.podbbang.com/channel^$replace=/"(ad|use_ad|ad_audio)"/"\$1_block"/
+||app-api4.podbbang.com/episode^$replace=/"(support)"/"\$1_block"/
+
+!Paoin
+!||webservice.paoin.com:440/paoin_mobile/paoin2/PaoinMobileService.asmx/GetMediaCategoryPublistForEasyView
+!<AppPrice>0.00</AppPrice><Price>0</Price>
+
+!SpindleBook
+||api.spindlebooks.com/api/v1/store^$replace=/"(is_free)":"0"/"\$1":"1"/
 
 ! Whoscall
 ||papilio.whoscall.com/v4/ads^
