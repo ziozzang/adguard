@@ -89,6 +89,13 @@ gall.dcinside.com,m.dcinside.com##span[id="*adblock"]
 ciokorea.com###techlibrary_left_slide_banner
 ciokorea.com###tail_popup
 
+! Clien.net
+new.clien.net###div-main-top
+new.clien.net###div-pc-side
+new.clien.net###div-main-center
+new.clien.net###div-pc-view-center
+new.clien.net###div-pc-list-top
+
 ! Daum
 daum.net##div[class="advert_*"]
 
