@@ -103,6 +103,14 @@ daum.net##div[class="advert_*"]
 ! Joins
 *.joins.com###wrap > div.main_curtain:first-child
 
+! ITworld
+itworld.co.kr###carousel-example-generic
+
+! SundayJournalUSA
+sundayjournalusa.com###flying_lban_in
+sundayjournalusa.com###flying_rban_in
+
+
 
 ! IAP
 ||cdn.smartstudy.co.kr/appdata/*.json$replace=/"(book_price|book_price_desc)"[^\"]*?"[^\"]*?"/"\$1":"0"/
