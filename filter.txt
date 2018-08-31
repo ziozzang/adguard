@@ -110,6 +110,9 @@ itworld.co.kr###carousel-example-generic
 sundayjournalusa.com###flying_lban_in
 sundayjournalusa.com###flying_rban_in
 
+! Kakaotalk Channel
+||talkchannel-api.kakao.com$app=com.kakao.talk,important
+
 
 
 ! IAP
