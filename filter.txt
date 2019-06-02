@@ -123,5 +123,24 @@ sundayjournalusa.com###flying_rban_in
 !||api.plus.joins.com/*/MediaInfo.aspx$replace=/"(pay|pmtyn|payyn|subs)":"Y"/"\$1":"N"/
 !||api.plus.joins.com/*.aspx$replace=/"(smpcnt)":\d*?/"\$1":999/
 
-
+!> https://www.clien.net/service/board/lecture/13558907
+! 앱분석/마케팅/트래킹 솔루션
+||e.crashlytics.com^
+||click.tiara.daum.net^
+||stat.tiara.daum.net^
+||app.launchdarkly.com^
+||app-measurement.com^
+||csi.gstatic.com^
+||mimgnews.pstatic.net^
+||ad.shallweadcorp.com:10700^
+||api-ao.adison.co^
+||ace.naver.com^
+||decide.mixpanel.com^
+||staticxx.facebook.com^
+||settings.crashlytics.com^
+! 카카오톡 광고
+||display.ad.daum.net^
+! 네이버웹툰 광고
+||naverwebtoon-phinf.pstatic.net^
+||cc.naver.com^$app=com.nhn.android.webtoon
 
